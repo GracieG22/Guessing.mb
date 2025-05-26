@@ -1,3 +1,5 @@
+this simulates a random guessing generator 
+
 # Random Generator Guessing Game.mb
 ```mermaid
 flowchart TD
