@@ -1,4 +1,4 @@
-# Guessing.mb
+# Random Generator Guessing Game.mb
 ```mermaid
 flowchart TD
     A(Start) --> B[Generate Random Number within 1-100]
