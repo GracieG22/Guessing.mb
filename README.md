@@ -8,8 +8,8 @@ flowchart TD
     D -->|Yes| E{Is Guess within number range?}
     E -->|No| C3
     E -->|Yes| F{Is the Guess Correct?}
-    F -->|Too High| C1[Feedback: Guess is too high]
-    F -->|Too Low| C2[Feedback: Guess is too low]
+    F -->|Too High| C1[Feedback: Guess is too high try again!]
+    F -->|Too Low| C2[Feedback: Guess is too low try again!]
     F -->|Correct| G[Congratulations! You've guessed the correct number]
     C1 --> C
     C2 --> C
